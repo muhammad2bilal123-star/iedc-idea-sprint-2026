@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* =========================================================
+   BRIGHT (LIGHT) MODE THEME OVERRIDES
+   ========================================================= */
+.bright-mode,
+.bright-mode .bg-slate-950,
+.bright-mode.bg-slate-950 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.bright-mode .bg-slate-950\/90,
+.bright-mode .bg-slate-950\/85,
+.bright-mode .bg-slate-950\/80,
+.bright-mode .bg-slate-950\/60 {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.bright-mode .bg-slate-900,
+.bright-mode .bg-slate-900\/90,
+.bright-mode .bg-slate-900\/80,
+.bright-mode .bg-slate-900\/70,
+.bright-mode .bg-slate-900\/60 {
+  background-color: #ffffff !important;
+  box-shadow: 0 8px 24px -4px rgba(15, 23, 42, 0.06) !important;
+}
+
+.bright-mode .bg-slate-800,
+.bright-mode .bg-slate-800\/60 {
+  background-color: #e2e8f0 !important;
+}
+
+.bright-mode .text-white,
+.bright-mode .text-slate-100 {
+  color: #0f172a !important;
+}
+
+.bright-mode .text-slate-200,
+.bright-mode .text-slate-300 {
+  color: #334155 !important;
+}
+
+.bright-mode .text-slate-400,
+.bright-mode .text-slate-500 {
+  color: #475569 !important;
+}
+
+.bright-mode .border-slate-800,
+.bright-mode .border-slate-800\/80,
+.bright-mode .border-slate-800\/90,
+.bright-mode .border-slate-700 {
+  border-color: #cbd5e1 !important;
+}
+
+.bright-mode .text-orange-300,
+.bright-mode .text-orange-400 {
+  color: #ea580c !important;
+}
+
+.bright-mode .text-cyan-300,
+.bright-mode .text-cyan-400 {
+  color: #0284c7 !important;
+}
+
+.bright-mode .text-emerald-300,
+.bright-mode .text-emerald-400 {
+  color: #059669 !important;
+}
+
+.bright-mode input,
+.bright-mode select,
+.bright-mode textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #94a3b8 !important;
+}
+
+.bright-mode input::placeholder,
+.bright-mode textarea::placeholder {
+  color: #64748b !important;
+}
